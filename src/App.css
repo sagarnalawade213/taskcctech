@@ -6,6 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
+.headSection, .footerSection {
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  background: #2185d0;
+  color: #fff;
+  
+}
+.headSection{margin-bottom: 40px;}
+.footerSection{margin-top: 40px;}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
